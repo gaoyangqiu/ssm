@@ -1,0 +1,1585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ssmweb:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f22ba6af-510c-4363-b8a9-55c7387b1ac8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-common/src/main/java/com/test/ssm/common/GlobalExceptionResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-common/src/main/java/com/test/ssm/common/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-common/src/main/java/com/test/ssm/common/ResultCodeConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-common/src/main/java/com/test/ssm/common/ResultUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-common/src/main/java/com/test/ssm/common/ServiceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-common/target/classes/com/test/ssm/common/GlobalExceptionResolver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-common/target/classes/com/test/ssm/common/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-common/target/classes/com/test/ssm/common/ResultCodeConstant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-common/target/classes/com/test/ssm/common/ResultUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-common/target/classes/com/test/ssm/common/ServiceException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-dal/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-dal/src/main/java/com/test/ssm/dao/userMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-dal/src/main/resources/generator.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-dal/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-dal/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-dal/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-dal/src/main/resources/mapper/userMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-dal/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-dal/src/main/resources/spring/spring-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-dal/ssmdal.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-dal/target/classes/com/test/ssm/dao/userMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-dal/target/classes/generator.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-dal/target/classes/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-dal/target/classes/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-dal/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-dal/target/classes/mapper/userMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-dal/target/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-dal/target/classes/spring/spring-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-model/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-model/src/main/java/com/test/ssm/model/user.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-model/target/classes/com/test/ssm/model/user.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-service/src/main/java/com/test/ssm/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-service/src/main/java/com/test/ssm/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-service/src/main/resources/spring/spring-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-service/ssmservice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-service/target/classes/com/test/ssm/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-service/target/classes/com/test/ssm/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-service/target/classes/spring/spring-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/java/com/test/ssm/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/resources/spring/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/views/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/js/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/lay/modules/colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/lay/modules/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/ssmweb.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/classes/com/test/ssm/controller/TestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/classes/spring/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/WEB-INF/classes/com/test/ssm/controller/TestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/WEB-INF/classes/spring/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/WEB-INF/lib/aspectjrt-1.8.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/WEB-INF/lib/aspectjweaver-1.8.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/WEB-INF/lib/commons-dbcp-1.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/WEB-INF/lib/commons-pool-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/WEB-INF/lib/druid-1.0.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/WEB-INF/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/WEB-INF/lib/jackson-annotations-2.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/WEB-INF/lib/jackson-core-2.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/WEB-INF/lib/jackson-core-asl-1.9.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/WEB-INF/lib/jackson-databind-2.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/WEB-INF/lib/jackson-mapper-asl-1.9.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/WEB-INF/lib/junit-4.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/WEB-INF/lib/log4j-1.2.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/WEB-INF/lib/lombok-1.16.18.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/WEB-INF/lib/mybatis-3.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/WEB-INF/lib/mybatis-generator-core-1.3.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/WEB-INF/lib/mybatis-spring-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/WEB-INF/lib/mysql-connector-java-5.1.30.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/WEB-INF/lib/slf4j-api-1.6.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/WEB-INF/lib/slf4j-log4j12-1.7.21.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/WEB-INF/lib/spring-aop-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/WEB-INF/lib/spring-beans-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/WEB-INF/lib/spring-context-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/WEB-INF/lib/spring-context-support-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/WEB-INF/lib/spring-core-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/WEB-INF/lib/spring-expression-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/WEB-INF/lib/spring-jdbc-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/WEB-INF/lib/spring-oxm-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/WEB-INF/lib/spring-test-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/WEB-INF/lib/spring-tx-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/WEB-INF/lib/spring-web-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/WEB-INF/lib/spring-webmvc-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/WEB-INF/lib/ssm-common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/WEB-INF/lib/ssm-dal-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/WEB-INF/lib/ssm-model-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/WEB-INF/lib/ssm-service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/WEB-INF/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/WEB-INF/views/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/js/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/lay/modules/colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/lay/modules/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-web/target/ssm-web/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssmparent.iml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/ssm-web/target/" />
+    <ignored path="$PROJECT_DIR$/ssm-service/target/" />
+    <ignored path="$PROJECT_DIR$/ssm-dal/target/" />
+    <ignored path="$PROJECT_DIR$/ssm-common/target/" />
+    <ignored path="$PROJECT_DIR$/ssm-model/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="12769170">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.67" value="1" />
+          <entry key="project.open.time.68" value="1" />
+          <entry key="project.opened" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="13" />
+          <entry key="css" value="12" />
+          <entry key="html" value="3" />
+          <entry key="java" value="32" />
+          <entry key="js" value="4" />
+          <entry key="jsp" value="2" />
+          <entry key="pom" value="2" />
+          <entry key="properties" value="7" />
+          <entry key="xml" value="45" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="13" />
+          <entry key="CSS" value="12" />
+          <entry key="HTML" value="3" />
+          <entry key="JAVA" value="32" />
+          <entry key="JSP" value="2" />
+          <entry key="JavaScript" value="4" />
+          <entry key="Properties" value="7" />
+          <entry key="XML" value="47" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="244" />
+          <entry key="java" value="2086" />
+          <entry key="properties" value="40" />
+          <entry key="xml" value="552" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="244" />
+          <entry key="JAVA" value="2086" />
+          <entry key="Properties" value="40" />
+          <entry key="XML" value="552" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.spring.core.usages.trigger">
+        <counts>
+          <entry key="fixes.SpringFacetInspection.AddFacetFix" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/views/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="969">
+              <caret line="85" column="63" lean-forward="true" selection-start-line="85" selection-start-column="63" selection-end-line="85" selection-end-column="63" />
+              <folding>
+                <element signature="n#style#0;n#el-aside#0;n#el-container#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#el-aside#0;n#el-container#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#el-header#0;n#el-container#0;n#el-container#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#el-dropdown#0;n#el-header#0;n#el-container#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/js/index.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/css/index.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssm-web/src/main/java/com/test/ssm/controller/TestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#510#511#0" expanded="true" />
+                <element signature="e#539#540#0" expanded="true" />
+                <element signature="e#613#614#0" expanded="true" />
+                <element signature="e#642#643#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>log</find>
+      <find>connector</find>
+      <find>test</find>
+      <find>aspectjweaver</find>
+      <find>ContextLoader</find>
+      <find>ContextLoader.properties</find>
+      <find>hibernate</find>
+      <find>OptionalValidatorFactoryBean</find>
+      <find>javax.mail-api</find>
+      <find>javaee</find>
+      <find>Servlet</find>
+      <find>ssm-servlet</find>
+      <find>contextConfigLocation</find>
+      <find>InternalResourceViewResolver</find>
+      <find>woff2</find>
+      <find>HEADER</find>
+      <find>el-menu-vertical-demo</find>
+      <find>el-header</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\work\ssmparent\ssm-web\src\main\webapp\WEB-INF</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ssm-service/src/main/java/com.test.ssm.service/test.java" />
+        <option value="$PROJECT_DIR$/ssm-web/src/main/java/com/test/ssm/controller/test.java" />
+        <option value="$PROJECT_DIR$/ssm-service/src/main/java/com.test.ssm.service/Test.java" />
+        <option value="$PROJECT_DIR$/ssm-model/pom.xml" />
+        <option value="$PROJECT_DIR$/ssm-dal/src/main/resources/generator.properties" />
+        <option value="$PROJECT_DIR$/ssm-dal/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/ssm-dal/src/main/resources/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/ssm-dal/src/main/resources/jdbc.properties" />
+        <option value="$PROJECT_DIR$/ssm-dal/src/main/resources/spring-dao.xml" />
+        <option value="$PROJECT_DIR$/ssm-service/src/main/resources/spring-service.xml" />
+        <option value="$PROJECT_DIR$/ssm-dal/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/ssm-web/src/main/resources/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/ssm-service/src/main/java/com/test/ssm/service/UserService.java" />
+        <option value="$PROJECT_DIR$/ssm-service/src/main/java/com/test/ssm/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ssm-service/pom.xml" />
+        <option value="$PROJECT_DIR$/ssm-dal/pom.xml" />
+        <option value="$PROJECT_DIR$/ssm-common/src/main/java/Result.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/ssm-web/pom.xml" />
+        <option value="$PROJECT_DIR$/ssm-common/pom.xml" />
+        <option value="$PROJECT_DIR$/ssm-common/src/main/java/com/test/ssm/common/ResultCode.java" />
+        <option value="$PROJECT_DIR$/ssm-common/src/main/java/com/test/ssm/common/ServiceException.java" />
+        <option value="$PROJECT_DIR$/ssm-common/src/main/java/com/test/ssm/common/ResultUtil.java" />
+        <option value="$PROJECT_DIR$/ssm-common/src/main/java/com/test/ssm/common/ResultCodeConstant.java" />
+        <option value="$PROJECT_DIR$/ssm-common/src/main/java/com/test/ssm/common/GlobalExceptionResolver.java" />
+        <option value="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/views/starter.html" />
+        <option value="$PROJECT_DIR$/ssm-web/src/main/resources/spring/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/views/test.html" />
+        <option value="$PROJECT_DIR$/ssm-web/src/main/java/com/test/ssm/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/views/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/solft/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="D:\solft\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ssm-dal" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ssm-dal" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ssm-dal" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="mybatis-generator" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ssm-model" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ssm-model" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ssm-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ssm-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ssm-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ssm-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ssm-web Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ssm-web Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1034" />
+    <option name="y" value="19" />
+    <option name="width" value="1936" />
+    <option name="height" value="1009" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ssmparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssmparent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssmparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssmparent" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssmparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssmparent" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssmparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssmparent" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssmparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssmparent" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssmparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssmparent" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssmparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssmparent" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssmparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssmparent" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssmparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssmparent" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssmparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssmparent" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssmparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssmparent" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssmparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssmparent" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssmparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssmparent" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssmparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssmparent" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssmparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssmparent" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssmparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssmparent" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssmparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="ssmparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:4.1.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="ssmparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:4.1.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-4.1.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssmparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:4.1.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-4.1.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssmparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:4.1.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-4.1.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssmparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:4.1.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-4.1.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssmparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:4.1.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-4.1.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssmparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:4.1.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-4.1.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+              <item name="handler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssmparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:4.1.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-4.1.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+              <item name="mvc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssmparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:4.1.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-4.1.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+              <item name="mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="method" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssmparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:4.1.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-4.1.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+              <item name="mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="method" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssmparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:4.1.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-4.1.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547893919589" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\ssmparent\ssm-web\src\main\webapp\WEB-INF\views" />
+      <recent name="D:\work\ssmparent\ssm-web\src\main\webapp\css" />
+      <recent name="D:\work\ssmparent\ssm-web\src\main\resources\spring" />
+      <recent name="D:\work\ssmparent\ssm-service\src\main\resources\spring" />
+      <recent name="D:\work\ssmparent\ssm-dal\src\main\resources\mapper" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\ssmparent\ssm-web\src\main\webapp\css" />
+      <recent name="D:\work\ssmparent\ssm-web\src\main\webapp\js" />
+      <recent name="D:\work\ssmparent\ssm-web\src\main\webapp" />
+      <recent name="D:\work\ssmparent\ssm-web\src\main\webapp\font" />
+      <recent name="D:\work\ssmparent\ssm-web\src\main\webapp\WEB-INF\views" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.ssm">
+    <configuration name="TestController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.ssm.controller.TestController" />
+      <module name="ssmweb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.ssm.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestController" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssmweb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.ssm.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test.ssm.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.test.ssm.controller.TestController" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestController.insertTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssmweb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.ssm.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test.ssm.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.test.ssm.controller.TestController" />
+      <option name="METHOD_NAME" value="insertTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ssm" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.34" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="ssmweb:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_ssmparent_2" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="57748" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ssmweb:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.ssm" />
+      <item itemvalue="Application.TestController" />
+      <item itemvalue="JUnit.TestController.insertTest" />
+      <item itemvalue="JUnit.TestController" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestController" />
+        <item itemvalue="JUnit.TestController.insertTest" />
+        <item itemvalue="Application.TestController" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f22ba6af-510c-4363-b8a9-55c7387b1ac8" name="Default Changelist" comment="" />
+      <created>1547695362516</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547695362516</updated>
+      <workItem from="1547695364194" duration="12215000" />
+      <workItem from="1547722268835" duration="367000" />
+      <workItem from="1547722674879" duration="1821000" />
+      <workItem from="1547773957629" duration="20032000" />
+      <workItem from="1547806867462" duration="1618000" />
+      <workItem from="1547859269694" duration="18276000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestController_insertTest - 2019.01.17 at 19h 12m 11s.xml">
+      <configuration name="TestController.insertTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestController_insertTest - 2019.01.17 at 19h 17m 39s.xml">
+      <configuration name="TestController.insertTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestController_insertTest - 2019.01.17 at 19h 23m 06s.xml">
+      <configuration name="TestController.insertTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestController_insertTest - 2019.01.17 at 19h 24m 55s.xml">
+      <configuration name="TestController.insertTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestController_insertTest - 2019.01.17 at 19h 25m 20s.xml">
+      <configuration name="TestController.insertTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestController_insertTest - 2019.01.17 at 19h 25m 41s.xml">
+      <configuration name="TestController.insertTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestController_insertTest - 2019.01.17 at 19h 26m 01s.xml">
+      <configuration name="TestController.insertTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestController_insertTest - 2019.01.17 at 19h 26m 29s.xml">
+      <configuration name="TestController.insertTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestController_insertTest - 2019.01.17 at 19h 27m 37s.xml">
+      <configuration name="TestController.insertTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestController - 2019.01.18 at 09h 21m 28s.xml">
+      <configuration name="TestController" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="54329000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1034" y="19" width="1936" height="1009" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31960997" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3434453" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.33028573" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32936078" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Application Servers" order="14" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="JSF" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.3128998" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="CDI" order="10" />
+      <window_info anchor="right" id="Bean Validation" order="11" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ssm-model/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-dal/src/main/resources/spring-dao.xml" />
+    <entry file="file://$PROJECT_DIR$/ssm-dal/src/main/resources/spring/spring-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="931">
+          <caret line="49" column="63" selection-start-line="49" selection-start-column="63" selection-end-line="49" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-service/src/main/resources/spring/spring-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-service/src/main/java/com/test/ssm/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-dal/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-service/src/main/java/com/test/ssm/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-dal/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-api/7.0/javaee-api-7.0.jar!/javax/servlet/ServletContextListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.6.RELEASE/spring-web-4.1.6.RELEASE-sources.jar!/org/springframework/web/context/ContextLoaderListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="105" column="19" selection-start-line="105" selection-start-column="19" selection-end-line="105" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.6.RELEASE/spring-web-4.1.6.RELEASE-sources.jar!/org/springframework/web/context/WebApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="53" column="11" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-api/7.0/javaee-api-7.0.jar!/javax/servlet/ServletContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="75" column="9" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.6.RELEASE/spring-web-4.1.6.RELEASE-sources.jar!/org/springframework/web/context/ContextLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3422">
+          <caret line="306" column="17" selection-start-line="306" selection-start-column="17" selection-end-line="306" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-dal/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="190" selection-start-line="190" selection-end-line="195" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.1.6.RELEASE/spring-webmvc-4.1.6.RELEASE.jar!/org/springframework/web/servlet/handler/SimpleMappingExceptionResolver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="82" column="21" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-common/src/main/java/com/test/ssm/common/ResultCode.java" />
+    <entry file="file://$PROJECT_DIR$/ssm-common/src/main/java/com/test/ssm/common/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-dal/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="679">
+          <caret line="97" column="21" selection-start-line="97" selection-start-column="21" selection-end-line="97" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-common/src/main/java/com/test/ssm/common/ResultCodeConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-common/src/main/java/com/test/ssm/common/ServiceException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="724">
+          <caret line="142" column="21" selection-start-line="142" selection-start-column="21" selection-end-line="142" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-common/src/main/java/com/test/ssm/common/ResultUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-common/src/main/java/com/test/ssm/common/GlobalExceptionResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="28" column="17" lean-forward="true" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/js/adminlte.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/js/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/js/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/css/_all-skins.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.1.6.RELEASE/spring-webmvc-4.1.6.RELEASE.jar!/org/springframework/web/servlet/view/InternalResourceViewResolver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.1.6.RELEASE/spring-webmvc-4.1.6.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.1.6.RELEASE/spring-webmvc-4.1.6.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="433" selection-start-line="433" selection-end-line="433" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.1.6.RELEASE/spring-webmvc-4.1.6.RELEASE.jar!/org/springframework/web/servlet/mvc/method/AbstractHandlerMethodAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.1.6.RELEASE/spring-webmvc-4.1.6.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="408" selection-start-line="408" selection-end-line="408" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.1.6.RELEASE/spring-webmvc-4.1.6.RELEASE.jar!/org/springframework/web/servlet/FrameworkServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="452" column="25" selection-start-line="452" selection-start-column="25" selection-end-line="452" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/views/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.6.RELEASE/spring-web-4.1.6.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="220" selection-start-line="220" selection-end-line="220" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/resources/spring/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="56" lean-forward="true" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1121">
+          <caret line="59" column="19" lean-forward="true" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/css/ionicons.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/css/font-awesome.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="55" lean-forward="true" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/css/AdminLTE.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="8176" selection-start-line="6" selection-start-column="8176" selection-end-line="6" selection-end-column="8176" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="4" column="67315" selection-start-line="4" selection-start-column="67315" selection-end-line="4" selection-end-column="67315" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/java/com/test/ssm/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/css/index.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/js/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/views/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1387">
+          <caret line="73" column="95" selection-start-line="73" selection-start-column="87" selection-end-line="73" selection-end-column="95" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#aside#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="85" column="63" lean-forward="true" selection-start-line="85" selection-start-column="63" selection-end-line="85" selection-end-column="63" />
+          <folding>
+            <element signature="n#style#0;n#el-aside#0;n#el-container#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#el-aside#0;n#el-container#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#el-header#0;n#el-container#0;n#el-container#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#el-dropdown#0;n#el-header#0;n#el-container#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>ssmweb:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ssmcommon</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: junit:junit:4.11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
