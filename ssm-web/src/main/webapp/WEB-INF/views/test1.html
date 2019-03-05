@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html xmlns:v-bind="http://www.w3.org/1999/xhtml">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script src="/js/jquery.min.js"></script>
+<script src="/js/vue.js"></script>
+<body>
+<div id="dialogArea">
+<select class="selectpicker"  title="请选择" v-model="selectedProvinces"  name="queryAreasForAdd">
+    <option v-for="province in provinces" v-bind:value="province.areaId">
+        {{ province.areaName }}
+    </option>
+</select>
+
+<select class="selectpicker"  title="请选择" v-model="selectedCity"  name="queryColumnsForAdd" >
+    <option v-for="city in citys" v-bind:value="city.areaId">
+        {{ city.areaName }}
+    </option>
+</select>
+</div>
+</body>
+<script >
+
+
+    var vmmodal = new Vue({
+        el: '#dialogArea',
+
+        data: {
+            selectedProvinces: null,
+            selectedCity: null,
+            provinces: [{
+                "areaName": "江苏省",
+                "areaId": 810,
+                "parentId": -1,
+                "level": 1,
+                "info": [{
+                    "areaName": "南京市",
+                    "areaId": 811,
+                    "parentId": 810,
+                    "level": 2,
+                    "info": []
+                },
+                    {
+                        "areaName": "无锡市",
+                        "areaId": 823,
+                        "parentId": 810,
+                        "level": 2,
+                        "info": []
+                    },
+                    {
+                        "areaName": "徐州市",
+                        "areaId": 831,
+                        "parentId": 810,
+                        "level": 2,
+                        "info": []
+                    },
+                    {
+                        "areaName": "常州市",
+                        "areaId": 842,
+                        "parentId": 810,
+                        "level": 2,
+                        "info": []
+                    },
+                    {
+                        "areaName": "苏州市",
+                        "areaId": 849,
+                        "parentId": 810,
+                        "level": 2,
+                        "info": []
+                    },
+                    {
+                        "areaName": "南通市",
+                        "areaId": 859,
+                        "parentId": 810,
+                        "level": 2,
+                        "info": []
+                    },
+                    {
+                        "areaName": "连云港市",
+                        "areaId": 868,
+                        "parentId": 810,
+                        "level": 2,
+                        "info": []
+                    },
+                    {
+                        "areaName": "淮安市",
+                        "areaId": 875,
+                        "parentId": 810,
+                        "level": 2,
+                        "info": []
+                    },
+                    {
+                        "areaName": "盐城市",
+                        "areaId": 883,
+                        "parentId": 810,
+                        "level": 2,
+                        "info": []
+                    },
+                    {
+                        "areaName": "扬州市",
+                        "areaId": 893,
+                        "parentId": 810,
+                        "level": 2,
+                        "info": []
+                    },
+                    {
+                        "areaName": "镇江市",
+                        "areaId": 900,
+                        "parentId": 810,
+                        "level": 2,
+                        "info": []
+                    },
+                    {
+                        "areaName": "泰州市",
+                        "areaId": 907,
+                        "parentId": 810,
+                        "level": 2,
+                        "info": []
+                    },
+                    {
+                        "areaName": "宿迁市",
+                        "areaId": 914,
+                        "parentId": 810,
+                        "level": 2,
+                        "info": []
+                    }]
+            },
+                {
+                    "areaName": "浙江省",
+                    "areaId": 920,
+                    "parentId": -1,
+                    "level": 1,
+                    "info": [{
+                        "areaName": "杭州市",
+                        "areaId": 921,
+                        "parentId": 920,
+                        "level": 2,
+                        "info": []
+                    },
+                        {
+                            "areaName": "宁波市",
+                            "areaId": 935,
+                            "parentId": 920,
+                            "level": 2,
+                            "info": []
+                        },
+                        {
+                            "areaName": "温州市",
+                            "areaId": 946,
+                            "parentId": 920,
+                            "level": 2,
+                            "info": []
+                        },
+                        {
+                            "areaName": "嘉兴市",
+                            "areaId": 958,
+                            "parentId": 920,
+                            "level": 2,
+                            "info": []
+                        },
+                        {
+                            "areaName": "湖州市",
+                            "areaId": 966,
+                            "parentId": 920,
+                            "level": 2,
+                            "info": []
+                        },
+                        {
+                            "areaName": "绍兴市",
+                            "areaId": 972,
+                            "parentId": 920,
+                            "level": 2,
+                            "info": []
+                        },
+                        {
+                            "areaName": "金华市",
+                            "areaId": 979,
+                            "parentId": 920,
+                            "level": 2,
+                            "info": []
+                        },
+                        {
+                            "areaName": "衢州市",
+                            "areaId": 989,
+                            "parentId": 920,
+                            "level": 2,
+                            "info": []
+                        },
+                        {
+                            "areaName": "舟山市",
+                            "areaId": 996,
+                            "parentId": 920,
+                            "level": 2,
+                            "info": []
+                        },
+                        {
+                            "areaName": "台州市",
+                            "areaId": 1001,
+                            "parentId": 920,
+                            "level": 2,
+                            "info": []
+                        },
+                        {
+                            "areaName": "丽水市",
+                            "areaId": 1011,
+                            "parentId": 920,
+                            "level": 2,
+                            "info": []
+                        }]
+                }],
+            citys: []
+
+        },
+
+
+        beforeMount: function () {
+            this.changeProvince();
+        },
+
+
+        watch: {
+            selectedProvinces: function () {
+                this.changeProvince();
+            }
+        },
+        methods: {
+            changeProvince: function () {
+                for (var i in this.provinces) {
+                    var obj = this.provinces[i];
+                    if (obj.areaId == this.selectedProvinces) {
+                        this.citys = obj.info;
+                        break;
+                    }
+                }
+
+            }
+        }
+
+    });
+
+</script>
+
+</html>
